@@ -1,0 +1,165 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #333;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+#wrap{
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+#header{
+  width: 1200px;
+  height: 100px;
+  float: left;
+  position: relative;
+}
+#slide{
+  width: 1200px;
+  height: 300px;
+  float: left;
+}
+#content{
+  width: 1200px;
+  height: 200px;
+  float: left;
+}
+#footer{
+  width: 1200px;
+  height: 100px;
+  float: left;
+  background-color: #333;
+}
+.logo{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.logo a{
+  margin-top: 30px;
+}
+.menu{
+  float: right;
+  margin-right: 30px;
+  margin-top: 60px;
+}
+.menu>li{
+  float: left;
+}
+.menu>li>a{
+  width: 150px;
+  height: 40px;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+}
+.menu>li>a:hover{
+  background-color: #9494ff;
+  color: #fff;
+}
+.sub{
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+/* .sub li{
+  background-color: #eee;
+} */
+.sub li a{
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.sub li a:hover{
+  background-color: #9494ff;
+  color: #fff;
+}
+.menuBg{
+  background-color: #eee;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  display: none;
+}
+#slide{
+  overflow: hidden;
+}
+.slidebox{
+  width: 1200px;
+  height: 300px;
+}
+.slidebox a{
+  height: 300px;
+}
+#content>div{
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+#content>div>p{
+  width: 100px;
+  height: 30px;
+  background-color: #eee;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#content>div>ul{
+  width: 380px;
+  height: 160px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.notice li a{
+  line-height: 34px;
+}
+.notice li a span{
+  float: right;
+}
+.gallery ul li{
+  float: left;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+#footer>div{
+  color: #fff;
+  float: left;
+}
+.nav_f{
+  float: left;
+  width: 1000px;
+  height: 50px;
+}
+.nav_f ul{
+  width: 300px;
+  margin-left: 350px;
+  margin-top: 10px;
+
+}
+.nav_f li a{
+  color: #fff;
+  float: left;
+  margin-right: 10px;
+}
+.copy{
+  width: 1000px;
+  height: 50px;
+  text-align: center;
+}
+.family{
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}

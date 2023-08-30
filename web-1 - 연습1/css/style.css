@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #333;
+  list-style: none;
+}
+
+body{
+  width: 100%;
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+
+/* layout */
+#wrap{
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+#header{
+  width: 1200px;
+  height: 100px;
+}
+#slide{
+  width: 1200px;
+  height: 300px;
+  border-radius: 15px;
+}
+#content{
+  width: 1200px;
+  height: 200px;
+  
+}
+#footer{
+  width: 1200px;
+  height: 100px;
+}
+
+.logo{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.logo a{
+  margin-top: 30px;
+}
+
+.nav{
+  width: 1000px;
+  height: 100px;
+  float: left;
+}
+.menu{
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.menu>li{
+  float: left;
+}
+.menu>li>a{
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 3px solid #ff7200;
+}
+.menu>li>a:hover{
+  background-color: #ff7200;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.sub{
+  display: none;
+  position: absolute;
+}
+.sub{}
+.sub li a{
+  width: 150px;
+  height: 40px;
+  background-color: #eee;
+  text-align: center;
+  line-height: 40px;
+}
+.sub li a:hover{
+  background-color: #ddd;
+}
+
+/* slide */
+#slide{
+  overflow: hidden;
+}
+.slidebox{
+  width: 1200px;
+  height: 900px;
+}
+.slidebox a{
+  height: 300px;
+}
+
+/* content */
+#content>div{
+  float: left;
+  width: 400px;
+  height: 200px;
+  
+}
+.tab{
+  position: relative;
+  
+}
+.tab>div{
+  float: left;
+}
+.tab p{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ff7200;
+  color: #ff7200;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+  border-bottom: 0;
+  border-radius: 15px 15px 0 0;
+}
+.tab ul{
+  width: 380px;
+  height: 160px;
+  border-top: 1px solid #ff7200;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+}
+
+.notice ul li a{
+  line-height: 34px;
+  font-size: 14px;
+}
+.notice ul li:hover{
+  font-weight: bold;
+}
+.notice ul li a span{
+  float: right;
+  color: #999;
+}
+.notice ul li:nth-child(2n){
+  background-color: #eee;
+}
+.gallery ul li{
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.gallery ul li:hover{
+  opacity: 0.8;
+}
+ 
+.active ul{
+  z-index: 1;
+}
+
+.active p{
+  background-color: #ff7200;
+  color: #fff;
+}
+.banner a img{
+  border-radius: 15px 0px 0 0;
+}
+.shortcut a img{
+  border-radius: 0px 15px 0 0;
+}
+/* footer */
+#footer{
+  background-color: #555;
+  border-radius: 0 0 15px 15px;
+}
+.logo_f{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.logo_f a{
+  margin-top: 30px;
+}
+
+.copy{
+  width: 800px;
+  height: 100px;
+  float: left;
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.sns{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.sns ul{}
+.sns ul li{
+  float: left;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+.sns ul li a img{
+  border-radius: 50px 50px;
+}
+.pop{
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -150px;
+  display: none;
+  border-radius: 15px;
+}
+.pop.active{
+  display: block;
+}
+
+.tit{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn{
+  width: 100px;
+  height: 30px;
+  background-color: #ff7200;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  line-height: 30px;
+  border-radius: 10px;
+}
+.l-round{
+  border-radius: 0 0 0 15px;
+}
+
+.r-round{
+  border-radius: 0 0 15px 0;
+}

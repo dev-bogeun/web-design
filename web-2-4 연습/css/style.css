@@ -1,0 +1,169 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #333;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+#wrap{
+  width: 100%;
+  margin: 0 auto;
+}
+#header{
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+#header_wrap{
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+#slide{
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+
+}
+#content{
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+#footer{
+  width: 100%;
+  margin: 0 auto;
+}
+#footer_wrap{
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #333;
+}
+.logo{
+  float: left;
+  width: 200px;
+  height: 100px;
+}
+.logo a{
+  margin-top: 30px;
+}
+.nav{
+  width: 1000px;
+  height: 100px;
+  float: left;
+}
+.menu{
+  float: right;
+  margin-top: 60px;
+}
+.menu>li{
+  float: left;
+}
+.menu>li>a{
+  width: 160px;
+  height: 40px;
+  background-color: #eee;
+  text-align: center;
+  line-height: 40px;
+}
+.menu>li>a:hover{
+  background-color: #9e9eff;
+  color: #fff;
+}
+.sub{
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.sub li a{
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+.sub li a:hover{
+  background-color: #9e9eff;
+  color: #fff;
+}
+.bg{
+  width: 100%;
+  height: 150px;
+  background-color: #eee;
+  position: absolute;
+  top: 100px;
+  display: none;
+}
+#slide{
+  overflow: hidden;
+}
+.slidebox{
+  width: 3600px;
+  height: 300px;
+}
+.slidebox a{
+  float: left;
+}
+#content>div{
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+#content>div>p{
+  width: 120px;
+  height: 40px;
+  background-color: #eee;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#content>div>p:hover{
+  background-color: #9e9eff;
+  color: #fff;
+}
+#content>div>ul{
+  padding: 20px;
+  box-sizing: border-box;
+}
+.notice li a{
+  line-height: 34px;
+}
+.notice li a span{
+  float: right;
+}
+.gallery li a{
+  float: left;
+  margin-right: 15px;
+}
+.nav_f{
+  width: 1000px;
+  height: 50px;
+  float: left;
+}
+.nav_f ul{
+  margin-left: 400px;
+}
+.nav_f li a{
+  float: left;
+  color: #fff;
+  margin-right: 10px;
+  line-height: 50px;
+}
+.copy{
+  width: 1000px;
+  height: 50px;
+  text-align: center;
+  float: left;
+  color: #fff;
+}
+.family{
+  float: left;
+  width: 200px;
+  height: 100px;
+}

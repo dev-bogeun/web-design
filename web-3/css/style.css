@@ -1,0 +1,204 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #333;
+}
+body{
+  background-color: #fff;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+}
+
+#wrap{
+  width: 1000px;
+  height: 650px;
+  margin: 0 auto;
+}
+#aside{
+  width: 200px;
+  height: 650px;
+  float: left;
+  /* background-color: hsl(258, 58%, 84%); */
+}
+#slide{
+  width: 800px;
+  height: 350px;
+  float: left;
+}
+#content{
+  width: 800px;
+  height: 200px;
+  float: left;
+}
+#footer{
+  width: 800px;
+  height: 100px;
+  float: left;
+  background-color: #eee;
+}
+.logo{
+  width: 200px;
+  height: 40px;
+  margin: 30px 0;
+}
+.logo a{
+  margin-top: 30px;
+}
+.nav{
+  width: 200px;
+  height: 550px;
+  background-color: #eee;
+}
+.menu{
+  margin-left: 10px;
+}
+.menu>li>a{
+  width: 180px;
+  height: 40px;
+  background-color: #5a3dc2;
+  font-weight: bold;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}
+.menu>li>a:hover{
+  background-color: #3700ff;
+}
+.sub{
+  display: none;
+}
+.sub li a{
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #eee;
+}
+.sub li a:hover{
+  background-color:#aaa;
+  color: #fff;
+}
+#slide{
+  overflow: hidden;
+}
+.slidebox{
+  width: 800px;
+  height: 350px;
+}
+.slidebox a{
+  height: 350px;
+}
+#content>div{
+  float: left;
+}
+.tab{
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+.tab>div{
+  float: left;
+}
+.tab p{
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tab ul{
+  width: 380px;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+}
+.notice ul li a{
+  line-height: 30px;
+}
+.notice ul li a span{
+  float: right;
+}
+.gallery ul li{
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.tab .active p {
+  background-color: #5a3dc2;
+  color: #fff;
+}
+.tab .active ul{
+  z-index: 1;
+}
+.logo_f{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.logo_f a{
+  margin-top: 30px;
+}
+.nav_f{
+  width: 800px;
+  height: 50px;
+}
+.nav_f ul {
+  width: 300px;
+  margin-left: 350px;
+  margin-top: 15px;
+}
+.nav_f ul li{
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+}
+.copy{
+  width: 800px;
+  height: 50px;
+  text-align: center;
+}
+.pop{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -200px;
+  margin-left: -150px;
+  background-color: #fff;
+  z-index: 2;
+  padding: 15px;
+  box-sizing: border-box;
+  display: none;
+}
+.tit{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  background-color: #5a3dc2;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  cursor: pointer;
+}
+.pop.active{
+  display: block;
+}

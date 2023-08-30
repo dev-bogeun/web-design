@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #333;
+  list-style: none;
+}
+
+body{
+  background-color: #fff;
+  width: 100%;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+}
+
+#wrap{
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+#header{
+  width: 1200px;
+  height: 100px;
+}
+#slide{
+  width: 1200px;
+  height: 300px;
+}
+#content{
+  width: 1200px;
+  height: 200px;
+}
+#footer{
+  width: 1200px;
+  height: 100px;
+}
+
+.logo{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.logo a{
+  margin-top: 30px;
+}
+
+.nav{
+  width: 1000px;
+  height: 100px;
+  float: left;
+}
+.menu{
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.menu>li{
+  float: left;
+}
+.menu>li>a{
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ff7200;
+}
+.menu>li>a:hover{
+  background-color: #ff7200;
+  color: #fff;
+}
+
+.sub{
+  display: none;
+  position: absolute;
+}
+.sub li{}
+.sub li a{
+  width: 150px;
+  height: 40px;
+  background-color: #eee;
+  text-align: center;
+  line-height: 40px;
+}
+.sub li a:hover{
+  background-color: #ddd;
+}
+
+#slide{
+  overflow: hidden;
+}
+.slidebox{
+  width: 1200px;
+  height: 900px;
+}
+.slidebox a{
+  height: 300px;
+}
+
+#content>div{
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+.tab{
+  position: relative;
+}
+.tab>div{
+  float: left;
+}
+.tab p{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ff7200;
+  color: #ff7200;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.tab ul{
+  width: 380px;
+  height: 160px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+}
+.notice ul li a{
+  margin-top: 15px;
+}
+.notice ul li a span{
+  float: right;
+  margin-right: 20px;
+  font-weight: 10px;
+  color: #999;
+}
+
+.gallery ul li a{
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.gallery ul li a img{
+}
+.active ul{
+  z-index: 1;
+}
+.active p{
+  background-color: #ff7200;
+  color: #fff;
+} 
+
+#footer{
+  background-color: #555;
+}
+.logo_f{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.logo_f a{
+  margin-top: 30px;
+}
+
+.copy{
+  width: 800px;
+  height: 100px;
+  float: left;
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.sns ul li{
+  float: left;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.pop{
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -150px;
+  display: none;
+}
+
+.tit{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pop.active{
+  display: block;
+}
+
+.btn{
+  width: 100px;
+  height: 30px;
+  background-color: #ff7200;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
